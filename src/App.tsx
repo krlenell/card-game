@@ -31,8 +31,8 @@ const createDeck = (): Deck => {
   return shuffled
 }
 
+//good ol' fisher yates
 const shuffleDeck = (array: Deck): Deck => {
-  //good ol' fisher yates
   let currentIndex = array.length,  randomIndex
 
   // While there remain elements to shuffle...
