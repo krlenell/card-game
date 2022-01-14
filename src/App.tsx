@@ -111,9 +111,9 @@ const App = () => {
 
   if(handState){
     hand1 = handState[0]
-    console.log(hand1)
+    console.log('hand1', hand1)
     hand2 = handState[1]
-    console.log(hand2)
+    console.log('hand2', hand2)
   }
 
   return (

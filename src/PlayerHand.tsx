@@ -1,5 +1,5 @@
 import React from "react";
-import type {Hand, Card} from './types'
+import type {Hand} from './types'
 
 interface PlayerHandProps{
   player: number,
