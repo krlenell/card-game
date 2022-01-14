@@ -13,37 +13,37 @@
 
 */
 
-Poker = (function($) {
+// Poker = (function($) {
 
-  var cardBaseURL = "http://h3h.net/images/cards/{suit}_{card}.svg";
-  var suits = ['spade', 'heart', 'diamond', 'club'];
-  var cards = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'];
+//   var cardBaseURL = "http://h3h.net/images/cards/{suit}_{card}.svg";
+//   var suits = ['spade', 'heart', 'diamond', 'club'];
+//   var cards = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'];
 
-  // *-* public methods *-*
+//   // *-* public methods *-*
 
-  var init = function() {
-      $(".buttons button").on("click", eventPlayAgainClicked);
-  };
+//   var init = function() {
+//       $(".buttons button").on("click", eventPlayAgainClicked);
+//   };
 
-  // *-* utility methods *-*
+//   // *-* utility methods *-*
 
-  var makeHand = function() {
-      // ...
-  };
+//   var makeHand = function() {
+//       // ...
+//   };
 
-  // *-* event methods *-*
+//   // *-* event methods *-*
 
-  var eventPlayAgainClicked = function() {
-      // ...
-  };
+//   var eventPlayAgainClicked = function() {
+//       // ...
+//   };
 
-  // expose public methods
-  return {
-      init: init
-  };
-})(jQuery);
+//   // expose public methods
+//   return {
+//       init: init
+//   };
+// })(jQuery);
 
-$(document).ready(Poker.init);
+// $(document).ready(Poker.init);
 
 /*
 
