@@ -26,6 +26,10 @@ Otherwise, this performs the task properly. There are a few enhancements I could
 1. In the console, run `npm run start`
 1. CRA should open the browser to `http://localhost:3000/`. If not, do so manually
 
+## Run Build
+
+A github pages deployment has been created, however due to github's requirement for HTTPS, the cards do not display. This will be fixed either by downloading the cards (already done via script) or deploying to a new domain.
+
 ## Available CRA Scripts
 
 In the project directory, you can run:
